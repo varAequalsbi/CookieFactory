@@ -8,6 +8,10 @@ public class MainMenu : MonoBehaviour
 {
    public void ChangeScene(string Scene)
     {
+        if (Scene == "Level 2")
+        {
+            Score.cookies = 0;
+        }
         SceneManager.LoadScene(Scene);
     }
  

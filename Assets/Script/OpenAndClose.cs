@@ -4,18 +4,6 @@ using UnityEngine;
 
 public class BakingOpenClose : MonoBehaviour
 {
-
-
-
-    private void Start()
-    {
-        
-    }
-
-    private void Update()
-    {
-        
-    }
     public void open(GameObject name)
     {
         name.SetActive(true);
